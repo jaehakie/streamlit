@@ -7,7 +7,7 @@ plt.rcParams['font.family'] = 'Malgun Gothic'
 
 # 첫 번째 서비스 구현
 def service_1():
-    in_person_in_buy = pd.read_csv("C:/Users/SEC/Desktop/충청남도 데이터포털 올담 데이터 활용 시각화 경진대회/충남 고객기준 충남 소비 현황.csv", encoding='cp949')
+    in_person_in_buy = pd.read_csv("충남 고객기준 충남 소비 현황.csv", encoding='cp949')
     ch_list = ['계룡시', '공주시', '금산군', '논산시', '당진시', '보령시', '부여군', '서산시', '서천군', '아산시',
            '예산군', '천안시 동남구', '천안시 서북구', '청양군', '태안군', '홍성군']
     menu_1 = st.sidebar.selectbox("시군구명 1", ch_list)
@@ -47,7 +47,7 @@ def service_1():
 
 # 두 번째 서비스 구현
 def service_2():
-    in_person_out_buy = pd.read_csv("C:/Users/SEC/Desktop/충청남도 데이터포털 올담 데이터 활용 시각화 경진대회/충남 고객기준 충남외 소비 현황.csv", encoding='cp949')
+    in_person_out_buy = pd.read_csv("충남 고객기준 충남외 소비 현황.csv", encoding='cp949')
     ch_list = ['계룡시', '공주시', '금산군', '논산시', '당진시', '보령시', '부여군', '서산시', '서천군', '아산시',
            '예산군', '천안시 동남구', '천안시 서북구', '청양군', '태안군', '홍성군']
     menu_1 = st.sidebar.selectbox("시군구명 1", ch_list)
@@ -87,7 +87,7 @@ def service_2():
     
 # 세 번째 서비스 구현
 def service_3():
-    out_person_in_buy = pd.read_csv("C:/Users/SEC/Desktop/충청남도 데이터포털 올담 데이터 활용 시각화 경진대회/충남외 고객기준 충남 소비 현황.csv", encoding='cp949')
+    out_person_in_buy = pd.read_csv("충남외 고객기준 충남 소비 현황.csv", encoding='cp949')
     ko_list = ['강원도','경기도','경상남도','경상북도','광주광역시','대구광역시','대전광역시','부산광역시','서울특별시','세종특별자치시',
            '울산광역시','인천광역시','전라남도','전라북도','제주특별자치도','충청북도']
     menu_1 = st.sidebar.selectbox("고객의 광역시군구명 1", ko_list)
@@ -127,7 +127,7 @@ def service_3():
     
 #네 번째 서비스 구현
 def service_4():
-    month_per_card = pd.read_csv("C:/Users/SEC/Desktop/충청남도 데이터포털 올담 데이터 활용 시각화 경진대회/충남 월별 카드 소비 현황.csv", encoding='cp949')
+    month_per_card = pd.read_csv("충남 월별 카드 소비 현황.csv", encoding='cp949')
     ch_list = ['계룡시', '공주시', '금산군', '논산시', '당진시', '보령시', '부여군', '서산시', '서천군', '아산시',
            '예산군', '천안시 동남구', '천안시 서북구', '청양군', '태안군', '홍성군']
     menu_1 = st.sidebar.selectbox("시군구명 1", ch_list)
@@ -167,7 +167,7 @@ def service_4():
     
 #다섯 번째 서비스 구현
 def service_5():
-    month_per_store = pd.read_csv("C:/Users/SEC/Desktop/충청남도 데이터포털 올담 데이터 활용 시각화 경진대회/충남 월별 휴폐업가맹점수 현황.csv", encoding='cp949')
+    month_per_store = pd.read_csv("충남 월별 휴폐업가맹점수 현황.csv", encoding='cp949')
     ch_list = ['계룡시', '공주시', '금산군', '논산시', '당진시', '보령시', '부여군', '서산시', '서천군', '아산시',
            '예산군', '천안시 동남구', '천안시 서북구', '청양군', '태안군', '홍성군']
     menu_1 = st.sidebar.selectbox("시군구명 1", ch_list)
@@ -208,7 +208,7 @@ def service_5():
     
 #여섯 번째 서비스 구현
 def service_6():
-    month_per_store = pd.read_csv("C:/Users/SEC/Desktop/충청남도 데이터포털 올담 데이터 활용 시각화 경진대회/충남 월별 휴폐업가맹점수 현황.csv", encoding='cp949')
+    month_per_store = pd.read_csv("충남 월별 휴폐업가맹점수 현황.csv", encoding='cp949')
     ch_list = ['계룡시', '공주시', '금산군', '논산시', '당진시', '보령시', '부여군', '서산시', '서천군', '아산시',
            '예산군', '천안시 동남구', '천안시 서북구', '청양군', '태안군', '홍성군']
     menu_1 = st.sidebar.selectbox("시군구명 1", ch_list)
@@ -249,7 +249,7 @@ def service_6():
 
 #일곱 번째 서비스 구현
 def service_7():
-    month_per_store = pd.read_csv("C:/Users/SEC/Desktop/충청남도 데이터포털 올담 데이터 활용 시각화 경진대회/충남 월별 휴폐업가맹점수 현황.csv", encoding='cp949')
+    month_per_store = pd.read_csv("충남 월별 휴폐업가맹점수 현황.csv", encoding='cp949')
     ch_list = ['계룡시', '공주시', '금산군', '논산시', '당진시', '보령시', '부여군', '서산시', '서천군', '아산시',
            '예산군', '천안시 동남구', '천안시 서북구', '청양군', '태안군', '홍성군']
     menu_1 = st.sidebar.selectbox("시군구명 1", ch_list)
